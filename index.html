@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../kakao-clone-challenge/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
     <title>Chats | KaKao Clone</title>
 </head>
@@ -26,89 +26,91 @@
         </div>
         <div class="header__column">
             <span class="header__icon"><i class="fas fa-search"></i></span>
-            <span class="header__icon"><i class="fas fa-comment"></i></span>
+            <span class="header__icon"><i class="far fa-comment"></i></span>
             <span class="header__icon"><i class="fas fa-cog"></i></span>
         </div>
     </header>
     <main class="chats">
         <ul class="chats__list">
-            <li class="chats__chat">
                 <li class="chats__chat">
                     <a href="chat1.html">
-                        <div class="chats__player">
+                        <div class="chats__player player">
                             <div class="player__column">
-                                <img src="images/martinelli.png" class="player__m-img">
+                                <img src="images/martinelli.png" class="player__img m-img">
                                 <div class="player__content">
                                     <span class="player__name">
                                         Gabriel Martinelli
                                     </span>
                                     <span class="player__bottom-text">
-                                       Hey gaffer, I wanted to say that I was a bit surprised to hear that you wanted to sell me, I've really enjoyed my football here and I wanted to say I wouldn't move if I had a choice
+                                       Hey gaffer, I wanted to say that I was   ...
                                     </span>
                                 </div>
                             </div>
                             <div class="player__column">
-                                <span class="chat__timestamp">October 25</span>
+                                <div class="player__content">
+                                    <span class="chat__timestamp">Oct. 25</span>
+                                    <span class="chat__unread">1</span>
+                                </div>
                             </div>
                         </div>
                     </a>
                 </li>
-            <li class="chats__chat">
                 <li class="chats__chat">
                     <a href="chat2.html">
-                        <div class="chats__player">
+                        <div class="chats__player player">
                             <div class="player__column">
-                                <img src="images/maitland-Niles.png" class="player__m-img">
+                                <img src="images/maitland-Niles.png" class="player__img m-img">
                                 <div class="player__content">
                                     <span class="player__name">
                                         A.Maitland-Niles
                                     </span>
                                     <span class="player__bottom-text">
-                                       I expect this type of performance every week. if you'll keep it up you'll be a certain starter.
+                                       I expect this type of performance every week ...
                                     </span>
                                 </div>
                             </div>
                             <div class="player__column">
-                                <span class="chat__timestamp">October 07</span>
+                                <span class="chat__timestamp">Oct. 07</span>
                             </div>
                         </div>
                     </a>
                 </li>
+                <li class="chats__chat">
                 <a href="chat3.html">
-                    <div class="chats__player">
+                    <div class="chats__player player">
                         <div class="player__column">
-                            <img src="images/guendouzi.png" class="player__m-img">
+                            <img src="images/guendouzi.png" class="player__img m-img">
                             <div class="player__content">
                                 <span class="player__name">
                                     Mattéo Guendouzi Olié
                                 </span>
                                 <span class="player__bottom-text">
-                                   You're doing very well right now but you shouldn't let this get to your head. Stay grounded and keep working hard.
+                                   You're doing very well right ...
                                 </span>
                             </div>
                         </div>
                         <div class="player__column">
-                            <span class="chat__timestamp">August 18</span>
+                            <span class="chat__timestamp">Aug. 18</span>
                         </div>
                     </div>
                 </a>
             </li>
             <li class="chats__chat">
                 <a href="chat4.html">
-                    <div class="chats__player">
+                    <div class="chats__player player">
                         <div class="player__column">
-                            <img src="images/aubameyang.png" class="player__m-img">
+                            <img src="images/aubameyang.png" class="player__img m-img">
                             <div class="player__content">
                                 <span class="player__name">
                                     Aubameyang Pierre-Emerick
                                 </span>
                                 <span class="player__bottom-text">
-                                    Really happy to join you lads. I'm really excited about what we'll achieve together
+                                    Really happy to join you lads. I'm really
                                 </span>
                             </div>
                         </div>
                         <div class="player__column">
-                            <span class="chat__timestamp">July 08</span>
+                            <span class="chat__timestamp">Jul. 08</span>
                         </div>
                     </div>
                 </a>
@@ -124,6 +126,7 @@
             </li>
             <li class="nav__list-icon">
                 <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">1</div>
                     <i class="fas fa-comment"></i>
                 </a>
             </li>
