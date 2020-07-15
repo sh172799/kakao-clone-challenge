@@ -11,6 +11,7 @@
 @import "chat.css";
 @import "profile-header.css";
 @import "profile-bg.css";
+@import "mobile.css";
 
 *{
     box-sizing: border-box;
